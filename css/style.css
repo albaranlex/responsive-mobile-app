@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: url("../img/bg_001.jpg") no-repeat center center fixed;
+}
+
+/* logo */
+.box1 img {
+  width: 180px;
+}
+
+/* nav links */
+a {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+/* buttons */
+button {
+  height: 50px;
+  width: 160px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5%;
+  padding: 10px;
+  margin: 5px;
+}
+
+.b1 {
+  background: #29be56;
+}
+
+.b2 {
+  background: #3598db;
+}
+
+/* Text Headline on Content Section */
+.box3 h2 {
+  font-weight: 200;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+/* Mobile Phones */
+.box4 img {
+  height: 100%;
+}
+
+.down {
+  transform: translate(150px);
+  z-index: -1;
+}
+
+.up {
+  transform: translate(0px, -99%);
+  z-index: -1;
+}
+
+/* Main Grid / Page Sectioning */
+main {
+  margin: 50px 250px;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 90%;
+}
+
+.box1 {
+  background-color: none;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+  font-size: 12px;
+  color: white;
+}
+
+.box3 {
+  padding: 10px;
+  margin-right: 20px;
+}
